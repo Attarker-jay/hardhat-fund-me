@@ -33,6 +33,7 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
   });
 
   if (
+    //ff
     !developmentChains.includes(network.name) &&
     process.env.ETHERSCAN_API_KEY
   ) {
